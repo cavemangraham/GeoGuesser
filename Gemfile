@@ -22,8 +22,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'geocoder'
-
-gem 'nifty-generators', '~> 0.4.6'
+gem 'smarter_csv', '~> 1.1'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
