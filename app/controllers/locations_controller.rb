@@ -13,7 +13,7 @@ class LocationsController < ApplicationController
   end
 
   def random
-    @locations = Location.limit(4).order("RANDOM()")
+    @locations = Location.limit(5).order("RANDOM()")
   end
 
   # GET /locations/new

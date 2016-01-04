@@ -1,5 +1,10 @@
 <h1>Random</h1>
+<p>
+<%= @locations.first.address %></p>
 
-<% @locations.each do |city| %>
-	<%= city.address %>
-<% end %>
+<p>
+<%= @locations.first.distance_to(@locations.second).round(1) %> miles</p>
+
+<p>
+<%= @locations.second.address %>
+</p>
